@@ -1,0 +1,70 @@
+/* ----------------- No page refresh - Ajax
+----------------------------------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  float: left;
+  background-color: #f5f5f5;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav ul {
+  list-style: none;
+  float: left;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+#content {
+  padding: 15px;
+}
+
+.active {
+  transition: 0.3s ease-in-out;
+  color: indianred;
+}
+
+/* content */
+#content_wrapper {
+  width: 100%;
+  float: left;
+  background-color: #eee;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.wrapper h1 {
+  color: springgreen;
+  padding: 10px 0;
+}
+
